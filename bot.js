@@ -25,7 +25,7 @@ client.on('ready', () => {
     client.user.setStatus("idle")
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "$"
+const prefix = "*"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -244,7 +244,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 });
 
 client.on("message", message => {
- if (message.content === `${prefix}`) {
+ if (message.content === `${prefix}hamo`) {
   const embed = new Discord.RichEmbed() //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
       .setColor("#000000")//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
       .setDescription(`
